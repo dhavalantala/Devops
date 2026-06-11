@@ -38,6 +38,16 @@ ansible --version
 
 ## 2. 🔑 Passwordless Authentication (SSH Key Setup)
 
+### SSH Utilities Comparison
+
+| Feature | `ssh-keygen` | `ssh-copy-id` |
+| :--- | :--- | :--- |
+| **Primary Purpose** | Generates a brand new cryptographic key pair. | Copies an existing public key to a server. |
+| **Where it Runs** | Run locally on your client machine. | Run locally on your client machine. |
+| **Network Action** | Completely offline; does not talk to any server. | Actively connects to the remote server over SSH. |
+| **Files Modified** | Creates local files (e.g., `id_ed25519` and `id_ed25519.pub`). | Appends data to the remote server's `authorized_keys`. |
+
+
 Ansible requires passwordless SSH authentication to target servers.
 
 ### On Ansible (Control) Server:
