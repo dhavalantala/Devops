@@ -244,15 +244,6 @@ kubernetes/
 
 ---
 
-## 9. 📚 Resources
-
-- 🔗 [Ansible Official Docs](https://docs.ansible.com)
-- 🔗 [Ansible Modules Reference](https://docs.ansible.com/ansible/latest/collections/index_module.html)
-- 🔗 [Abhishek's GitHub - ansible-examples](https://github.com/abhishekf5/ansible-examples)
-- 🔗 [18 Ansible Interview Questions (Video)](https://www.youtube.com/@TrainWithShubham) *(check description of original video)*
-
----
-
 ## 🚀 Practice Checklist
 
 - [ ] Install Ansible on a Linux machine
